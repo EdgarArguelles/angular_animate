@@ -2,15 +2,15 @@
 use clases from animate.css in order to be used by ngAnimate
 */
 .mytable.ng-enter {
-    -webkit-animation: lightSpeedIn 1s;
-    -moz-animation: lightSpeedIn 1s;
-    -ms-animation: lightSpeedIn 1s;
-    animation: lightSpeedIn 1s;
+    -webkit-animation: lightSpeedIn 0.5s;
+    -moz-animation: lightSpeedIn 0.5s;
+    -ms-animation: lightSpeedIn 0.5s;
+    animation: lightSpeedIn 0.5s;
 }
 
 .mytable.ng-leave {
-    -webkit-animation: lightSpeedIn 1s;
-    -moz-animation: lightSpeedIn 1s;
-    -ms-animation: lightSpeedIn 1s;
-    animation: lightSpeedIn 1s;
+    -webkit-animation: lightSpeedOut 0.5s;
+    -moz-animation: lightSpeedOut 0.5s;
+    -ms-animation: lightSpeedOut 0.5s;
+    animation: lightSpeedOut 0.5s;
 }
