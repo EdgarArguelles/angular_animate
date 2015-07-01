@@ -14,3 +14,25 @@ use clases from animate.css in order to be used by ngAnimate
     -ms-animation: lightSpeedOut 0.5s;
     animation: lightSpeedOut 0.5s;
 }
+
+.mylist {
+    font-size: 50px;
+    float: left;
+    word-wrap: break-word;
+    margin: 50px 40px;
+    color: green;
+}
+
+.mylist.ng-enter {
+    -webkit-animation: rotateIn 1s;
+    -moz-animation: rotateIn 1s;
+    -ms-animation: rotateIn 1s;
+    animation: rotateIn 1s;
+}
+
+.mylist.ng-leave {
+    -webkit-animation: hinge 1s;
+    -moz-animation: hinge 1s;
+    -ms-animation: hinge 1s;
+    animation: hinge 1s;
+}

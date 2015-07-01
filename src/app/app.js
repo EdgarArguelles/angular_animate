@@ -4,7 +4,7 @@
         'ngRoute',
         'ngAnimate',
         'app.group',
-        'app.table'])
+        'app.animatecss'])
         .config(config);
 
     function config($routeProvider) {

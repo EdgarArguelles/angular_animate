@@ -1,5 +1,5 @@
 (function () {
-    'use strict'
+    'use strict';
     angular.module('app.group', [])
         .config(config)
         .controller('GroupCtrl', GroupCtrl);

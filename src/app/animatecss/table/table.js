@@ -1,13 +1,13 @@
 (function () {
-    'use strict'
-    angular.module('app.table', [])
+    'use strict';
+    angular.module('app.animatecss.table', [])
         .config(config)
         .controller('TableCtrl', TableCtrl);
 
     function config($routeProvider) {
         $routeProvider
             .when('/table', {
-                templateUrl: 'app/table/table.tpl.html',
+                templateUrl: 'app/animatecss/table/table.tpl.html',
                 controller: 'TableCtrl as ctrl'
             });
     }
