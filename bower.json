@@ -16,6 +16,6 @@
     "angular": "~1.4.1",
     "angular-route": "~1.4.1",
     "angular-animate": "~1.4.1",
-    "ngAnimate": "*"
+    "animate.css": "~3.3.0"
   }
 }

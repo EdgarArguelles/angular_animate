@@ -1,5 +1,5 @@
 <div>
-    <h1>Table using ng-animation.css</h1>
+    <h1>Table using animate.css</h1>
 
     <div style="float: left;">
         <input placeholder="filter" ng-model="ctrl.filter"/>
@@ -10,7 +10,7 @@
                 <th>Last Name</th>
                 <th>Phone</th>
             </tr>
-            <tr class="scale-fade-in" ng-repeat="v in ctrl.values | filter: ctrl.filter">
+            <tr class="mytable" ng-repeat="v in ctrl.values | filter: ctrl.filter">
                 <td>{{v.no}}</td>
                 <td>{{v.name}}</td>
                 <td>{{v.lastName}}</td>

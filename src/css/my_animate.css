@@ -1,0 +1,16 @@
+/*
+use clases from animate.css in order to be used by ngAnimate
+*/
+.mytable.ng-enter {
+    -webkit-animation: lightSpeedIn 1s;
+    -moz-animation: lightSpeedIn 1s;
+    -ms-animation: lightSpeedIn 1s;
+    animation: lightSpeedIn 1s;
+}
+
+.mytable.ng-leave {
+    -webkit-animation: lightSpeedIn 1s;
+    -moz-animation: lightSpeedIn 1s;
+    -ms-animation: lightSpeedIn 1s;
+    animation: lightSpeedIn 1s;
+}
