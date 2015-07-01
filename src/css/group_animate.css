@@ -29,24 +29,24 @@
     background: yellow;
 }
 
-.ng-enter {
+.circle.ng-enter, .square.ng-enter {
     transition: 1s ease-in-out all;
     color: white;
     height: 0px;
 }
 
-.ng-enter.ng-enter-active {
+.circle.ng-enter.ng-enter-active, .square.ng-enter.ng-enter-active {
     color: black;
     height: 50px;
 }
 
-.ng-leave {
+.circle.ng-leave, .square.ng-leave {
     transition: 2s ease-in-out all;
     color: black;
     height: 50px;
 }
 
-.ng-leave.ng-leave-active {
+.circle.ng-leave.ng-leave-active, .square.ng-leave.ng-leave-active {
     color: white;
     height: 0px;
 }
