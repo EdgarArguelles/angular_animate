@@ -7,7 +7,7 @@
  2) Animation ends. ngAnimate removes all classes
 */
 
-.ng-enter {
+.myview.ng-enter {
     transition: all linear 0.5s;
     /*
       all        animate using all css styles. Eg: left
@@ -19,7 +19,7 @@
     /* animation will start from the rigth */
 }
 
-.ng-enter.ng-enter-active {
+.myview.ng-enter.ng-enter-active {
     left: 0;
     /* animation will end on the left */
 }
@@ -33,14 +33,14 @@
  2) Animation ends. ngAnimate removes all classes
 */
 
-.ng-leave {
+.myview.ng-leave {
     transition: all linear 0.5s;
     position: absolute;
     left: 0%;
     /* animation will start from the left */
 }
 
-.ng-leave.ng-leave-active {
+.myview.ng-leave.ng-leave-active {
     left: 100%;
     /* animation will end on the rigth */
 }

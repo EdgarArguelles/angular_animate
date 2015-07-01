@@ -13,7 +13,6 @@
     }
 
     function TableCtrl() {
-        this.filter = '';
         this.values = [
             {no: 1, name: 'Peter', lastName: 'Smith', phone: '555-456-445'},
             {no: 2, name: 'Aaron', lastName: 'Jones', phone: '782-456-123'},
