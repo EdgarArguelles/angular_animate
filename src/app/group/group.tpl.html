@@ -1,0 +1,19 @@
+<h1>Group</h1>
+<div ng-controller="GroupCtrl as ctrl">
+    <div class="group-a">
+        <h3>Group A</h3>
+
+        <div class="square transport" ng-repeat="item in ctrl.groupA" ng-animate-ref="{{item}}"
+             ng-click="ctrl.moveToB(item)">
+            {{item}}
+        </div>
+    </div>
+    <div class="group-b">
+        <h3>Group B</h3>
+
+        <div class="circle transport" ng-repeat="item in ctrl.groupB" ng-animate-ref="{{item}}"
+             ng-click="ctrl.moveToA(item)">
+            {{item}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+{
+  "name": "angular_animate",
+  "version": "0.0.1",
+  "authors": [
+    "edgar <ing.edgar.arguelles@gmail.com>"
+  ],
+  "description": "basic example of ngAnimate",
+  "main": "src/app/app.js",
+  "keywords": [
+    "angular",
+    "ngRoute",
+    "ngAnimate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "angular-animate": "~1.4.1"
+  }
+}

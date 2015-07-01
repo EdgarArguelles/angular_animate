@@ -1,0 +1,52 @@
+.group-a, .group-b {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px dashed #ccc;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px dashed #ccc;
+    border-radius: 25px;
+}
+
+.transport.ng-anchor {
+    transition: 1s ease-in-out all;
+}
+
+.transport.ng-anchor-in {
+    background: red;
+}
+
+.transport.ng-anchor-out {
+    background: yellow;
+}
+
+.ng-enter {
+    transition: 1s ease-in-out all;
+    color: white;
+    height: 0px;
+}
+
+.ng-enter.ng-enter-active {
+    color: black;
+    height: 50px;
+}
+
+.ng-leave {
+    transition: 2s ease-in-out all;
+    color: black;
+    height: 50px;
+}
+
+.ng-leave.ng-leave-active {
+    color: white;
+    height: 0px;
+}
