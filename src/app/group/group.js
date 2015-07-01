@@ -8,7 +8,8 @@
     function config($routeProvider) {
         $routeProvider
             .when('/group', {
-                templateUrl: 'app/group/group.tpl.html'
+                templateUrl: 'app/group/group.tpl.html',
+                controller: 'GroupCtrl as ctrl'
             });
     }
 

@@ -1,6 +1,10 @@
 (function () {
     "use strict";
-    angular.module('app', ['ngRoute', 'ngAnimate', 'app.group'])
+    angular.module('app', [
+        'ngRoute',
+        'ngAnimate',
+        'app.group',
+        'app.table'])
         .config(config);
 
     function config($routeProvider) {
